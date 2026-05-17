@@ -75,13 +75,36 @@ The system:
 
 ## 📂 Project Structure
 
-**main.py** : Streamlit application entry point
-**few_shot.py** : Few-shot example handling
-**post_generator.py** : LLM-based post generation
-**preprocess.py** : Data preprocessing utilities
-**llm_helper.py** : Groq LLM integration
-**requirements.txt** : Project dependencies
-**.env** : Environment variables
-**posts.json** : Historical LinkedIn posts
+- **main.py** : Streamlit application entry point
+- **few_shot.py** : Few-shot example handling
+- **post_generator.py** : LLM-based post generation
+- **preprocess.py** : Data preprocessing utilities
+- **llm_helper.py** : Groq LLM integration
+- **requirements.txt** : Project dependencies
+- **.env** : Environment variables
+- **posts.json** : Historical LinkedIn posts
 
+## 🎯 Learning Outcomes
 
+Through this project, I learned:
+
+- Prompt engineering
+- Few-shot learning
+- LLM integration using Groq
+- Streamlit app development
+- Text preprocessing techniques
+- Building end-to-end GenAI applications
+
+## 🚀 Future Improvements
+- Add support for multiple influencers
+- Save generated posts history
+- Add LinkedIn post scheduling
+- Improve topic clustering using embeddings
+- Support image generation for posts
+- Deploy using Docker / Cloud platforms
+
+## 🙌 Acknowledgements
+
+This project was inspired by and built while learning from the Codebasics Generative AI tutorials.
+
+Special thanks to the Codebasics team for the educational content and project guidance.
